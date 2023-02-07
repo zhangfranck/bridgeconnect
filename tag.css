@@ -1,0 +1,413 @@
+/*font*/
+html{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Tags en haut des posts*/
+.posts .post {
+  display: none;
+}
+.posts .post.active {
+  display: block;
+}
+:root {
+  --selected-tag: '';
+}
+.tag{
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+
+#tagList{
+  list-style-type: none;
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+
+/* Les Posts */
+
+
+/* Nature */
+.user_nature{
+  display: flex;
+  margin-left: 5%;
+  margin-top: -10%;
+}
+.user_nature img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 15%;
+}
+.user_nature h2{
+  font-size: 25px;
+  color: black;
+}
+
+.descr_nature{
+justify-content: center;
+margin-top: 2%;
+margin-left: 5%;
+}
+.descr_nature p{
+color: red;
+margin-left: 15%;
+}
+.descr_nature img{
+width: 25%;
+height: 25%;
+margin-right: 5px;
+margin-left: 15%;
+}
+
+
+/* Mode */
+.user_mode{
+    display: flex;
+    margin-left: 5%;
+    margin-top: -10%;
+}
+.user_mode img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-left: 15%;
+}
+.user_mode h2{
+    font-size: 25px;
+    color: black;
+}
+
+.descr_mode{
+  justify-content: center;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.descr_mode p{
+  color: red;
+  margin-left: 15%;
+}
+.descr_mode img{
+  width: 25%;
+  height: 25%;
+  margin-right: 5px;
+  margin-left: 15%;
+}
+
+
+/* Food */
+.user_food{
+  display: flex;
+  margin-left: 5%;
+  margin-top: -10%;
+}
+.user_food img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 15%;
+}
+.user_food h2{
+  font-size: 25px;
+  color: black;
+}
+
+.descr_food{
+justify-content: center;
+margin-top: 2%;
+margin-left: 5%;
+}
+.descr_food p{
+color: red;
+margin-left: 15%;
+}
+.descr_food img{
+width: 25%;
+height: 25%;
+margin-right: 5px;
+margin-left: 15%;
+}
+
+/* Travel */
+.user_travel{
+  display: flex;
+  margin-left: 5%;
+  margin-top: -10%;
+}
+.user_travel img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 15%;
+}
+.user_travel h2{
+  font-size: 25px;
+  color: black;
+}
+
+.descr_travel{
+justify-content: center;
+margin-top: 2%;
+margin-left: 5%;
+}
+.descr_travel p{
+color: red;
+margin-left: 15%;
+}
+.descr_travel img{
+width: 25%;
+height: 25%;
+margin-right: 5px;
+margin-left: 15%;
+}
+
+
+/* Beauty */
+.user_beauty{
+  display: flex;
+  margin-left: 5%;
+  margin-top: -10%;
+}
+.user_beauty img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 15%;
+}
+.user_beauty h2{
+  font-size: 25px;
+  color: black;
+}
+
+.descr_beauty{
+justify-content: center;
+margin-top: 2%;
+margin-left: 5%;
+}
+.descr_beauty p{
+color: red;
+margin-left: 15%;
+}
+.descr_beauty img{
+width: 25%;
+height: 25%;
+margin-right: 5px;
+margin-left: 15%;
+}
+
+
+/* Sport */
+.user_sport{
+  display: flex;
+  margin-left: 5%;
+  margin-top: -10%;
+}
+.user_sport img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 15%;
+}
+.user_sport h2{
+  font-size: 25px;
+  color: black;
+}
+
+.descr_sport{
+justify-content: center;
+margin-top: 2%;
+margin-left: 5%;
+}
+.descr_sport p{
+color: red;
+margin-left: 15%;
+}
+.descr_sport img{
+width: 25%;
+height: 25%;
+margin-right: 5px;
+margin-left: 15%;
+}
+
+
+/* Tech */
+.user_tech{
+  display: flex;
+  margin-left: 5%;
+  margin-top: -10%;
+}
+.user_tech img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 15%;
+}
+.user_tech h2{
+  font-size: 25px;
+  color: black;
+}
+
+.descr_tech{
+justify-content: center;
+margin-top: 2%;
+margin-left: 5%;
+}
+.descr_tech p{
+color: red;
+margin-left: 15%;
+}
+.descr_tech img{
+width: 25%;
+height: 25%;
+margin-right: 5px;
+margin-left: 15%;
+}
+
+
+/* Music */
+.user_music{
+  display: flex;
+  margin-left: 5%;
+  margin-top: -10%;
+}
+.user_music img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 15%;
+}
+.user_music h2{
+  font-size: 25px;
+  color: black;
+}
+
+.descr_music{
+justify-content: center;
+margin-top: 2%;
+margin-left: 5%;
+}
+.descr_music p{
+color: red;
+margin-left: 15%;
+}
+.descr_music img{
+width: 25%;
+height: 25%;
+margin-right: 5px;
+margin-left: 15%;
+}
+
+
+/* Photography */
+.user_photography{
+  display: flex;
+  margin-left: 5%;
+  margin-top: -10%;
+}
+.user_photography img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 15%;
+}
+.user_photography h2{
+  font-size: 25px;
+  color: black;
+}
+
+.descr_photography{
+justify-content: center;
+margin-top: 2%;
+margin-left: 5%;
+}
+.descr_photography p{
+color: red;
+margin-left: 15%;
+}
+.descr_photography img{
+width: 25%;
+height: 25%;
+margin-right: 5px;
+margin-left: 15%;
+}
+
+
+/* Art */
+.user_art{
+  display: flex;
+  margin-left: 5%;
+  margin-top: -10%;
+}
+.user_art img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 15%;
+}
+.user_art h2{
+  font-size: 25px;
+  color: black;
+}
+
+.descr_art{
+justify-content: center;
+margin-top: 2%;
+margin-left: 5%;
+}
+.descr_art p{
+color: red;
+margin-left: 15%;
+}
+.descr_art img{
+width: 25%;
+height: 25%;
+margin-right: 5px;
+margin-left: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Background color change when click on Tag */
+body[data-selected-tag="tag0"] {
+  background-color: #00FFFF;
+}
+body[data-selected-tag="tag1"] {
+  background-color: #808080;
+}
+body[data-selected-tag="tag2"] {
+  background-color: #FF0000;
+}
+body[data-selected-tag="tag3"] {
+  background-color: #0000FF;
+}
+body[data-selected-tag="tag4"] {
+  background-color: #00FF00;
+}
+body[data-selected-tag="tag5"] {
+  background-color: #FFFF00;
+}
+body[data-selected-tag="tag6"] {
+  background-color: #FFA500;
+}
+body[data-selected-tag="tag7"] {
+  background-color: #800080;
+}
+body[data-selected-tag="tag8"] {
+  background-color: #FF69B4;
+}
+body[data-selected-tag="tag9"] {
+  background-color: #A52A2A;
+}
+
